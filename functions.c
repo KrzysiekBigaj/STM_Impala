@@ -126,37 +126,37 @@ void MotorsControl(void)
 			{
 						if(adjustment > 100)
 							{
-								MotorP(-1, adjustment * 0.8);
+								MotorP(-1, adjustment * 0.7);
 								MotorL(1, 100);
 							}
 
 						else	if(adjustment > 80)
 										{
-											MotorP(-1, adjustment * 0.7);
+											MotorP(-1, adjustment * 0.45);
 											MotorL(1, 100);
 										}
 
 						else	if(adjustment > 60)
 										{
-											MotorP(-1, adjustment * 0.45);
+											MotorP(0, 100);
 											MotorL(1, 100);
 										}
 
 						else	if(adjustment > 40)
 										{
-											MotorP(0, adjustment * 2.5);
+											MotorP(0, adjustment * 1.25);
 											MotorL(1, 100);
 										}
 
 						else	if(adjustment > 20)
 										{
-											MotorP(1, 100 - adjustment - 65);
+											MotorP(1, 100 - adjustment - 30);
 											MotorL(1, 100);
 										}
 
 						else
 								{
-									MotorP(1, 100 - adjustment);
+									MotorP(1, 100 - adjustment/2);
 									MotorL(1, 100);
 								}
 
@@ -172,37 +172,37 @@ void MotorsControl(void)
 			else	if(adjustment < -100)
 						{
 							MotorP(1,  100);
-							MotorL(-1, - adjustment * 0.8);
+							MotorL(-1, - adjustment * 0.7);
 						}
 
 			else	if(adjustment <- 80)
 						{
 							MotorP(1, 100);
-							MotorL(-1, - adjustment * 0.7);
+							MotorL(-1, - adjustment * 0.45);
 						}
 
 			else	if(adjustment < -60)
 						{
 							MotorP(1, 100);
-							MotorL(-1, - adjustment * 0.45);
+							MotorL(0, 100);
 						}
 
 			else	if(adjustment < -40)
 						{
 							MotorP(1, 100);
-							MotorL(0, - adjustment * 2.5);
+							MotorL(0, - adjustment * 1.25);
 						}
 
 			else	if(adjustment < -20)
 						{
 							MotorP(1, 100);
-							MotorL(1, 100 + adjustment - 65);
+							MotorL(1, 100 + adjustment - 30);
 						}
 
 			else
 						{
 							MotorP(1, 100);
-							MotorL(1, 100 + adjustment);
+							MotorL(1, 100 + adjustment/2);
 						}
 		}
 

@@ -81,14 +81,14 @@ int Ki = 0;
 int Kd = 1000;
 int Kl = -50; //wspolczynnik czasu przy wypadnieciu
 
-double force_prescaler = 92;//tu podajemy wartosc od 0 do 100 , bo potem prescaler jest dzielony przez 100
+double force_prescaler = 85;//tu podajemy wartosc od 0 do 100 , bo potem prescaler jest dzielony przez 100
 							//tak jest przyjete zeby mozna bylo przeslac to przez bluetootha
 							//
 							//prescaler preskaluje jazde do przodu i do tylu.
 							//Jeli chcesz zeby np. tylko preskalowa³ jazde do przodu
 							//wprowadz zmiany w 2 miejscach oznaczonych '!!!' w pliku 'pwm_nasz_regulator'
 
-int turbine_power = 2000; // od 1000 do 2000
+int turbine_power = 1720; // od 1000 do 2000
 
 int border = 600;   // na bialym czujnik wskazuje ok 100-150 , a na czarnym 1800-3000
 

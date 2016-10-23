@@ -3,11 +3,7 @@
 <workbenchAdvisor/>
 <window>
 <fastViewData fastViewLocation="1024">
-<orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
 <orientation position="512" view="org.coocox.component.ui.ComponentView"/>
-<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
-<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
-<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
 </fastViewData>
 <perspectiveBar/>
 <page focus="true" label="Workspace - CooCox CoBuilder">
@@ -23,38 +19,19 @@
 <part id="4"/>
 <part id="5"/>
 <part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="functions.c" partName="functions.c" path="C:/IMPALA_ROBOMATICON_2015/Impala_KB_ZAWODY_OSTATECZNY/functions.c" title="functions.c" tooltip="C:/IMPALA_ROBOMATICON_2015/Impala_KB_ZAWODY_OSTATECZNY/functions.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="functions.c" partName="functions.c" path="C:/Users/Krzysiek/Desktop/Impala/Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach/functions.c" title="functions.c" tooltip="C:/Users/Krzysiek/Desktop/Impala/Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach/functions.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/functions.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3274" selectionTopPixel="3442"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2773" selectionTopPixel="2120"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="pwm_nasz_regulator.c" partName="pwm_nasz_regulator.c" path="K:/Moje programy/IMPALA/Impala_KB_ZAWODY - Kopia/pwm_nasz_regulator.c" title="pwm_nasz_regulator.c" tooltip="K:/Moje programy/IMPALA/Impala_KB_ZAWODY - Kopia/pwm_nasz_regulator.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/pwm_nasz_regulator.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2630" selectionTopPixel="1640"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Krzysiek/Documents/_PROJECTS/STM_Impala/main.c" title="main.c" tooltip="C:/Users/Krzysiek/Documents/_PROJECTS/STM_Impala/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1436" selectionTopPixel="3420"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_ir.c" partName="init_ir.c" path="K:/Moje programy/IMPALA/Impala_KB_ZAWODY - Kopia/init_ir.c" title="init_ir.c" tooltip="K:/Moje programy/IMPALA/Impala_KB_ZAWODY - Kopia/init_ir.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/init_ir.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17006" selectionTopPixel="9027"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="deklaracje.h" partName="deklaracje.h" path="D:/Piotr/impala/Impala_KB_3.1/Impala_KB_3.1 - cos nie dziala/deklaracje.h" title="deklaracje.h" tooltip="D:/Piotr/impala/Impala_KB_3.1/Impala_KB_3.1 - cos nie dziala/deklaracje.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/deklaracje.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_timer.c" partName="init_timer.c" path="C:/IMPALA_ROBOMATICON_2015/Impala_KB_ZAWODY_Robocza/init_timer.c" title="init_timer.c" tooltip="C:/IMPALA_ROBOMATICON_2015/Impala_KB_ZAWODY_Robocza/init_timer.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/init_timer.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="506" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_ADC.c" partName="init_ADC.c" path="C:/Users/Krzysiek/Desktop/Impala_KB_ZAWODY/init_ADC.c" title="init_ADC.c" tooltip="C:/Users/Krzysiek/Desktop/Impala_KB_ZAWODY/init_ADC.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_ADC.c" partName="init_ADC.c" path="C:/Users/Krzysiek/Desktop/Impala/Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC/init_ADC.c" title="init_ADC.c" tooltip="C:/Users/Krzysiek/Desktop/Impala/Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC/init_ADC.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/init_ADC.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4774" selectionTopPixel="23"/>
 </editor>
@@ -66,9 +43,13 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/cmsis_boot/startup/startup_stm32f10x_hd.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12052" selectionTopPixel="3105"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_pwm.c" partName="init_pwm.c" path="K:/Moje programy/IMPALA/Impala_KB_ZAWODY - Kopia/init_pwm.c" title="init_pwm.c" tooltip="K:/Moje programy/IMPALA/Impala_KB_ZAWODY - Kopia/init_pwm.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="init_pwm.c" partName="init_pwm.c" path="C:/Users/Krzysiek/Desktop/Impala/Impala_KB_ROBOMATICON_2015_zmieniony/init_pwm.c" title="init_pwm.c" tooltip="C:/Users/Krzysiek/Desktop/Impala/Impala_KB_ROBOMATICON_2015_zmieniony/init_pwm.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/init_pwm.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="410" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="11" selectionOffset="410" selectionTopPixel="632"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Krzysiek/Desktop/Impala/Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach/main.c" title="main.c" tooltip="C:/Users/Krzysiek/Desktop/Impala/Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Impala_KB/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1352" selectionTopPixel="973"/>
 </editor>
 </editors>
 <views>
@@ -78,21 +59,21 @@
 </viewState>
 </view>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="3">
 <expanded>
 <element path="/Impala_KB"/>
 </expanded>
 <selection>
-<element path="/Impala_KB/init_ADC.c"/>
+<element path="/Impala_KB/main.c"/>
 </selection>
 </viewState>
 </view>
 <view id="org.coocox.component.ui.ComponentView" partName="Components">
 <viewState/>
 </view>
-<view id="org.coocox.builder.ui.exampleView" partName="EXTI Examples">
+<view id="org.coocox.builder.ui.exampleView" partName="Example Examples">
 <viewState>
-<Examples ComponentId="445" Title="EXTI"/>
+<Examples ComponentId="0" Title="Example"/>
 </viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
@@ -167,7 +148,7 @@
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@eafea4" ratio="0.19314206" ratioLeft="276" ratioRight="1153" relationship="2" relative="org.eclipse.ui.internal.ViewStack@114ae7">
 <folder activePageID="org.coocox.builder.ui.exampleView" appearance="2" expanded="2">
-<page content="org.coocox.builder.ui.exampleView" label="EXTI Examples"/>
+<page content="org.coocox.builder.ui.exampleView" label="Example Examples"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 </presentation>
@@ -292,78 +273,20 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/functions.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/cmsis_boot/startup/startup_stm32f10x_hd.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/functions.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/functions.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/init_pwm.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/init_ADC.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/functions.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/init_ir.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/deklaracje.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/init_timer.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/functions.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Impala_KB/functions.c"/>
 </editors>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="2109" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2020" y="0"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="2233" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1350" y="0"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="2233" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1351" y="0"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="2233" y="0"/>
-</item>
-<item historyLabel="startup_stm32f10x_hd.c" index="2">
-<position info="not_deleted" x="12052" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3863" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4584" y="0"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="2233" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="1348" y="0"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="3950" y="2"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4177" y="4"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="1655" y="0"/>
-</item>
-<item historyLabel="startup_stm32f10x_hd.c" index="2">
-<position info="not_deleted" x="12052" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3863" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5552" y="0"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="2958" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="7044" y="0"/>
-</item>
-<item historyLabel="functions.c" index="1">
-<position info="not_deleted" x="2958" y="0"/>
-</item>
-<item historyLabel="init_timer.c" index="3">
-<position info="not_deleted" x="506" y="10"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5617" y="0"/>
-</item>
 <item historyLabel="functions.c" index="1">
 <position info="not_deleted" x="1677" y="6"/>
 </item>
@@ -439,11 +362,74 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1835" y="0"/>
 </item>
-<item historyLabel="functions.c" index="4">
+<item historyLabel="functions.c" index="3">
 <position info="not_deleted" x="3274" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
+<item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1836" y="0"/>
+</item>
+<item historyLabel="functions.c" index="4">
+<position info="not_deleted" x="3263" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="1836" y="0"/>
+</item>
+<item historyLabel="functions.c" index="4">
+<position info="not_deleted" x="3965" y="0"/>
+</item>
+<item historyLabel="main.c" index="6">
+<position/>
+</item>
+<item historyLabel="functions.c" index="4">
+<position info="not_deleted" x="2773" y="0"/>
+</item>
+<item historyLabel="main.c" index="6">
+<position/>
+</item>
+<item historyLabel="init_pwm.c" index="7">
+<position info="not_deleted" x="410" y="11"/>
+</item>
+<item historyLabel="functions.c" index="4">
+<position info="not_deleted" x="2773" y="0"/>
+</item>
+<item historyLabel="main.c" index="6">
+<position info="not_deleted" x="4630" y="0"/>
+</item>
+<item historyLabel="init_ADC.c" index="8">
+<position info="not_deleted" x="4774" y="0"/>
+</item>
+<item historyLabel="functions.c" index="9">
+<position info="not_deleted" x="2773" y="0"/>
+</item>
+<item historyLabel="main.c" index="6">
+<position info="not_deleted" x="1836" y="0"/>
+</item>
+<item historyLabel="functions.c" index="9">
+<position info="not_deleted" x="2773" y="0"/>
+</item>
+<item historyLabel="main.c" index="6">
+<position info="not_deleted" x="1836" y="0"/>
+</item>
+<item historyLabel="init_ir.c" index="10"/>
+<item historyLabel="deklaracje.h" index="11"/>
+<item historyLabel="init_timer.c" index="12"/>
+<item historyLabel="functions.c" index="13">
+<position info="not_deleted" x="2773" y="0"/>
+</item>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="functions.c" index="13">
+<position info="not_deleted" x="2773" y="0"/>
+</item>
+<item historyLabel="main.c" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="functions.c" index="15">
+<position info="not_deleted" x="2773" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="14">
+<position info="not_deleted" x="1436" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -452,47 +438,48 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="algorithm.c" tooltip="stm32f429/my_lib/src/algorithm.c">
-<persistable path="/stm32f429/my_lib/src/algorithm.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Impala_KB/main.c">
+<persistable path="/Impala_KB/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="algorithmConfig.h" tooltip="stm32f429/my_lib/inc/algorithmConfig.h">
-<persistable path="/stm32f429/my_lib/inc/algorithmConfig.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init_pwm.c" tooltip="Impala_KB/init_pwm.c">
+<persistable path="/Impala_KB/init_pwm.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="algorithmCore.c" tooltip="stm32f429/my_lib/src/algorithmCore.c">
-<persistable path="/stm32f429/my_lib/src/algorithmCore.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_usart.c" tooltip="Bluetooth/stm_lib/src/stm32f10x_usart.c">
+<persistable path="/Bluetooth/stm_lib/src/stm32f10x_usart.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm_control.c" tooltip="stm32f429/my_lib/src/stm_control.c">
-<persistable path="/stm32f429/my_lib/src/stm_control.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="functions.c" tooltip="Impala_KB/functions.c">
+<persistable path="/Impala_KB/functions.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm_control.h" tooltip="stm32f429/my_lib/inc/stm_control.h">
-<persistable path="/stm32f429/my_lib/inc/stm_control.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="pwm_nasz_regulator.c" tooltip="Impala_KB/pwm_nasz_regulator.c">
+<persistable path="/Impala_KB/pwm_nasz_regulator.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.h" tooltip="stm32f429/main.h">
-<persistable path="/stm32f429/main.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init_input.c" tooltip="Impala_KB/init_input.c">
+<persistable path="/Impala_KB/init_input.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="stm32f429/main.c">
-<persistable path="/stm32f429/main.c"/>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>&#x0A;<subPage/>
+</persistable>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hcsr04.h" tooltip="stm32f429/ub_lib/inc/hcsr04.h">
-<persistable path="/stm32f429/ub_lib/inc/hcsr04.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GLCD.c" tooltip="Bluetooth/GLCD/GLCD.c">
+<persistable path="/Bluetooth/GLCD/GLCD.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="lcd_spi.c" tooltip="stm32f429/opt_lib/src/lcd_spi.c">
-<persistable path="/stm32f429/opt_lib/src/lcd_spi.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="AsciiLib.c" tooltip="Bluetooth/cmsis/AsciiLib.c">
+<persistable path="/Bluetooth/cmsis/AsciiLib.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="utils.c" tooltip="stm32f429/my_lib/src/utils.c">
-<persistable path="/stm32f429/my_lib/src/utils.c"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GLCD.h" tooltip="C:\CooCox\CoIDE\workspace\Bluetooth\GLCD\GLCD.h">
+<persistable path="C:\CooCox\CoIDE\workspace\Bluetooth\GLCD\GLCD.h" project="Bluetooth"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="time.c" tooltip="stm32f429/my_lib/src/time.c">
-<persistable path="/stm32f429/my_lib/src/time.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="deklaracje.h" tooltip="Bluetooth/deklaracje.h">
+<persistable path="/Bluetooth/deklaracje.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bluetooth.c" tooltip="stm32f429/my_lib/src/bluetooth.c">
-<persistable path="/stm32f429/my_lib/src/bluetooth.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="init_UART.c" tooltip="Bluetooth/init_UART.c">
+<persistable path="/Bluetooth/init_UART.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="OV7670_control.h" tooltip="stm32f429/opt_lib/inc/OV7670_control.h">
-<persistable path="/stm32f429/opt_lib/inc/OV7670_control.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="deklaracje.c" tooltip="Bluetooth/deklaracje.c">
+<persistable path="/Bluetooth/deklaracje.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hcsr04.c" tooltip="stm32f429/ub_lib/src/hcsr04.c">
-<persistable path="/stm32f429/ub_lib/src/hcsr04.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Bluetooth/main.c">
+<persistable path="/Bluetooth/main.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="functions.c" tooltip="Impala_KB/functions.c">
 <persistable path="/Impala_KB/functions.c"/>

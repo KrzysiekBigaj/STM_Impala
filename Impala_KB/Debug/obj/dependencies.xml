@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
-   <includePath signature="/I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\stm_lib\inc /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\stm_lib /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\SysTick /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\GLCD /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\TouchPanel /I..\..\..\..\.. /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\cmsis /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\cmsis_boot /I..\..\..\..\..\IMPALA_ROBOMATICON_2015">
+   <includePath signature="/I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach\stm_lib /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach\GLCD /I..\..\..\..\..\Users\Krzysiek\Desktop /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach\cmsis_boot /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach\cmsis /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach\stm_lib\inc /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach\SysTick /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach\TouchPanel /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_Wieden_2016_3s_Testy_Wegorz_na_zakretach">
       <source file="..\..\..\cmsis\core_cm3.h" lastModified="141c7c2ea70">
       </source>
       <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1429b3418c0">
@@ -50,7 +50,7 @@
          <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
          <include file="..\..\..\deklaracje.h"/>
       </source>
-      <source file="..\..\..\functions.c" lastModified="14bf2e5f850">
+      <source file="..\..\..\functions.c" lastModified="15346eb84ab">
          <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
          <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
          <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
@@ -145,7 +145,7 @@
       <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1429b326b10">
          <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
       </source>
-      <source file="..\..\..\main.c" lastModified="14bf461398d">
+      <source file="..\..\..\main.c" lastModified="1536bbafe9f">
          <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
          <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
          <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
@@ -238,6 +238,614 @@
          <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
       </source>
       <source file="..\..\..\ee_ram.h" lastModified="13443809c0d">
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC\stm_lib /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC\cmsis_boot /I..\..\..\..\..\Users\Krzysiek\Desktop /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC\SysTick /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC\TouchPanel /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC\cmsis /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC\stm_lib\inc /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony_NIE_RUSZAC\GLCD">
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1429b3418c0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\GLCD.h" lastModified="142a9619d00">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\deklaracje.h" lastModified="1448f0e71c4">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="141c7c2fa10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="1427225cff0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="14272257230">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="141d07207a0">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14233d73090">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1448d3295bb">
+      </source>
+      <source file="..\..\..\init_ADC.c" lastModified="144a1547c25">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="141c7c34060">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14233d73090">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.h" lastModified="12c020a8a50">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1429b3418c0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="142a9a47260">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="141d07207a0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.c" lastModified="12c020b5570">
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1429b326b10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\init_pwm.c" lastModified="14be6fb8b1b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\deklaracje.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="142a9a47260">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="141c7c2f240">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="141c7c2fa10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1427225cff0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\AsciiLib.c" lastModified="13d8eadbe80">
+         <include file="..\..\..\GLCD\AsciiLib.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.h" lastModified="12c0697b390">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.h" lastModified="131013d4d60">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1429b326b10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.c" lastModified="1429b36dfb0">
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14272257230">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\HzLib.c" lastModified="12c8c59cc20">
+         <include file="..\..\..\GLCD\HzLib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="141c7c34060">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.c" lastModified="142a9a4c080">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\TouchPanel\TouchPanel.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\GLCD\GLCD.h"/>
+      </source>
+      <source file="..\..\..\init_usart.c" lastModified="14421934ed0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony\SysTick /I..\..\..\..\..\Users\Krzysiek\Desktop /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony\stm_lib /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony\TouchPanel /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony\cmsis /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony\GLCD /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony\cmsis_boot /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015_zmieniony\stm_lib\inc">
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1429b3418c0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\GLCD.h" lastModified="142a9619d00">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\deklaracje.h" lastModified="1448f0e71c4">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="141c7c2fa10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="1427225cff0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="14272257230">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="141d07207a0">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14233d73090">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1448d3295bb">
+      </source>
+      <source file="..\..\..\init_ADC.c" lastModified="144a1547c25">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="141c7c34060">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14233d73090">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.h" lastModified="12c020a8a50">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1429b3418c0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="142a9a47260">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="141d07207a0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.c" lastModified="12c020b5570">
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1429b326b10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\init_pwm.c" lastModified="14be6fb8b1b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\deklaracje.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="142a9a47260">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="141c7c2f240">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="141c7c2fa10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1427225cff0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\AsciiLib.c" lastModified="13d8eadbe80">
+         <include file="..\..\..\GLCD\AsciiLib.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.h" lastModified="12c0697b390">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.h" lastModified="131013d4d60">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1429b326b10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.c" lastModified="1429b36dfb0">
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14272257230">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\HzLib.c" lastModified="12c8c59cc20">
+         <include file="..\..\..\GLCD\HzLib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="141c7c34060">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.c" lastModified="142a9a4c080">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\TouchPanel\TouchPanel.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\GLCD\GLCD.h"/>
+      </source>
+      <source file="..\..\..\init_usart.c" lastModified="14421934ed0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Krzysiek\Desktop /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015\stm_lib\inc /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015\stm_lib /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015\GLCD /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015\cmsis_boot /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015 /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015\TouchPanel /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015\cmsis /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala /I..\..\..\..\..\Users\Krzysiek\Desktop\Impala\Impala_KB_ROBOMATICON_2015\SysTick">
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1429b3418c0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\GLCD.h" lastModified="142a9619d00">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\deklaracje.h" lastModified="1448f0e71c4">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="141c7c2fa10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="1427225cff0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="14272257230">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="141d07207a0">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14233d73090">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1448d3295bb">
+      </source>
+      <source file="..\..\..\init_ADC.c" lastModified="144a1547c25">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="141c7c34060">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14233d73090">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.h" lastModified="12c020a8a50">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1429b3418c0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="142a9a47260">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="141d07207a0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.c" lastModified="12c020b5570">
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1429b326b10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\init_pwm.c" lastModified="14be6fb8b1b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\deklaracje.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="142a9a47260">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="141c7c2f240">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="141c7c2fa10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1427225cff0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\AsciiLib.c" lastModified="13d8eadbe80">
+         <include file="..\..\..\GLCD\AsciiLib.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.h" lastModified="12c0697b390">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.h" lastModified="131013d4d60">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1429b326b10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.c" lastModified="1429b36dfb0">
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14272257230">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\HzLib.c" lastModified="12c8c59cc20">
+         <include file="..\..\..\GLCD\HzLib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="141c7c34060">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.c" lastModified="142a9a4c080">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\TouchPanel\TouchPanel.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\GLCD\GLCD.h"/>
+      </source>
+      <source file="..\..\..\init_usart.c" lastModified="14421934ed0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\stm_lib\inc /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\stm_lib /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\SysTick /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\GLCD /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\TouchPanel /I..\..\..\..\.. /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\cmsis /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\cmsis_boot /I..\..\..\..\..\IMPALA_ROBOMATICON_2015">
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1429b3418c0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\GLCD.h" lastModified="142a9619d00">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\deklaracje.h" lastModified="1448f0e71c4">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="141c7c2fa10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="141c7c309b0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="1427225cff0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="141c7c2f240">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="14272257230">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="141c7c2f240">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="141d07207a0">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="14233d73090">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1448d3295bb">
+      </source>
+      <source file="..\..\..\init_ADC.c" lastModified="144a1547c25">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="141c7c34060">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14233d73090">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.h" lastModified="12c020a8a50">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="1429b3418c0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="142a9a47260">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="141d07207a0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\SysTick\stm32f10x_systick.c" lastModified="12c020b5570">
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h" lastModified="1429b326b10">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\init_pwm.c" lastModified="14be6fb8b1b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\deklaracje.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="142a9a47260">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="141c7c2f240">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="141c7c2fa10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1427225cff0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\AsciiLib.c" lastModified="13d8eadbe80">
+         <include file="..\..\..\GLCD\AsciiLib.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.h" lastModified="12c0697b390">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.h" lastModified="131013d4d60">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1429b326b10">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\SysTick\systick.c" lastModified="1429b36dfb0">
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\SysTick\stm32f10x_systick.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14272257230">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\GLCD\HzLib.c" lastModified="12c8c59cc20">
+         <include file="..\..\..\GLCD\HzLib.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="141c7c309b0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="141c7c34060">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\TouchPanel\TouchPanel.c" lastModified="142a9a4c080">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\TouchPanel\TouchPanel.h"/>
+         <include file="..\..\..\SysTick\systick.h"/>
+         <include file="..\..\..\GLCD\GLCD.h"/>
+      </source>
+      <source file="..\..\..\init_usart.c" lastModified="14421934ed0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
       </source>
    </includePath>
    <includePath signature="/I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia\cmsis_boot /I..\..\..\..\.. /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia\stm_lib /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia\SysTick /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia\TouchPanel /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia\stm_lib\inc /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia\cmsis /I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_Robocza - Kopia\GLCD /I..\..\..\..\..\IMPALA_ROBOMATICON_2015">
