@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103VC -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\stm_lib\inc -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\stm_lib -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\SysTick -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\GLCD -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\TouchPanel -I..\..\..\..\.. -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\cmsis -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY -I..\..\..\..\..\IMPALA_ROBOMATICON_2015\Impala_KB_ZAWODY_OSTATECZNY\cmsis_boot -I..\..\..\..\..\IMPALA_ROBOMATICON_2015">
+      <target file="init_input.o" lastModified="14bf2de4064">
+         <source file="..\..\..\init_input.c" lastModified="1440e9a6f70"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="14bf2de4171">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1429b3418c0"/>
+      </target>
+      <target file="init_ir.o" lastModified="14bf2de20cf">
+         <source file="..\..\..\init_ir.c" lastModified="14bd68b52a7"/>
+      </target>
+      <target file="systick.o" lastModified="14bf2de4252">
+         <source file="..\..\..\SysTick\systick.c" lastModified="1429b36dfb0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="14bf2de2e29">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="141c7c2f240"/>
+      </target>
+      <target file="core_cm3.o" lastModified="14bf2de1c7a">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="141c7c2e2a0"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="14bf2de1fbf">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="141c7c2fa10"/>
+      </target>
+      <target file="pwm_nasz_regulator.o" lastModified="14bf2de3994">
+         <source file="..\..\..\pwm_nasz_regulator.c" lastModified="14be6fb8916"/>
+      </target>
+      <target file="misc.o" lastModified="14bf2de3e98">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="141d07207a0"/>
+      </target>
+      <target file="init_timer.o" lastModified="14bf2de3f76">
+         <source file="..\..\..\init_timer.c" lastModified="1447ab3826d"/>
+      </target>
+      <target file="ee_ram.o" lastModified="14bf2de3577">
+         <source file="..\..\..\ee_ram.c" lastModified="13b4870a9bb"/>
+      </target>
+      <target file="stm32f10x_fsmc.o" lastModified="14bf2de1eef">
+         <source file="..\..\..\stm_lib\src\stm32f10x_fsmc.c" lastModified="1429b326b10"/>
+      </target>
+      <target file="HzLib.o" lastModified="14bf2de2685">
+         <source file="..\..\..\GLCD\HzLib.c" lastModified="12c8c59cc20"/>
+      </target>
+      <target file="stm32f10x_systick.o" lastModified="14bf2de434e">
+         <source file="..\..\..\SysTick\stm32f10x_systick.c" lastModified="12c020b5570"/>
+      </target>
+      <target file="functions.o" lastModified="14bf2e60afb">
+         <source file="..\..\..\functions.c" lastModified="14bf2e5f080"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="14bf2de3833">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="142a9a47260"/>
+      </target>
+      <target file="init_usart.o" lastModified="14bf2de292e">
+         <source file="..\..\..\init_usart.c" lastModified="14421934ed0"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="14bf2de3101">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="141c7c309b0"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="14bf2de276f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="141c7c309b0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="14bf2de1d54">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="141c7c2f240"/>
+      </target>
+      <target file="syscalls.o" lastModified="14bf2de36d9">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="141c7c2e2a0"/>
+      </target>
+      <target file="startup_stm32f10x_hd.o" lastModified="14bf2de1e04">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="1448d3295bb"/>
+      </target>
+      <target file="init_pwm.o" lastModified="14bf2de2a0c">
+         <source file="..\..\..\init_pwm.c" lastModified="14be6fb8b1b"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="14bf2de3222">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="1427225cff0"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="14bf2de1ba9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="141c7c34060"/>
+      </target>
+      <target file="GLCD.o" lastModified="14bf2de3d86">
+         <source file="..\..\..\GLCD\GLCD.c" lastModified="142aaa98e20"/>
+      </target>
+      <target file="TouchPanel.o" lastModified="14bf2de2b10">
+         <source file="..\..\..\TouchPanel\TouchPanel.c" lastModified="142a9a4c080"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="14bf2de3ab1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="14272257230"/>
+      </target>
+      <target file="AsciiLib.o" lastModified="14bf2de2c5f">
+         <source file="..\..\..\GLCD\AsciiLib.c" lastModified="13d8eadbe80"/>
+      </target>
+      <target file="init_ADC.o" lastModified="14bf2de342b">
+         <source file="..\..\..\init_ADC.c" lastModified="144a1547c25"/>
+      </target>
+      <target file="main.o" lastModified="14bf4615247">
+         <source file="..\..\..\main.c" lastModified="14bf46131bd"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="14bf2de3323">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="14233d73090"/>
+      </target>
+   </processor>
+</history>

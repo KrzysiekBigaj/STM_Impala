@@ -1,0 +1,15 @@
+Co dzia³a:
+bierne hamowanie
+aktywne hamowanie
+bluetooth z przerwaniami
+Regulator PID
+dioda sygnalizujaca roz³adowywanie pakietu
+turbina
+kod do przetworników A/C
+pamiêæ
+podczerwieñ
+
+Co trzeba zrobiæ:
+-doszlifowac algorytm PID
+
+
